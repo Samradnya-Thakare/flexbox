@@ -3,9 +3,9 @@
     display: flex;
     flex-direction:row;
     justify-content:space-evenly;
-   height: 650px;
-   align-items: center;
-   flex-wrap: wrap;
+    height: 650px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .card{
@@ -24,5 +24,28 @@
 .card-title{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    
+}
+.parent-container{
+    flex-direction: row-reverse;
+    align-items: start;
+    display: flex;
+    background-color: rgb(195, 232, 219);
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.parent-container-2{
+    background-color: rgb(195, 232, 219);
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.parent-container-3{
+    background-color: rgb(195, 232, 219);
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content:start;
+    align-items:end;
+    flex-wrap: nowrap;
 }
